@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: sever-api
+    name: server-api
     env: docker
     plan: free
     repo: https://github.com/SergioAJS/rss-golden-fleece.git
