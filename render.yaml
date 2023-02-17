@@ -16,7 +16,7 @@ services:
     region: frankfurt
     branch: responsive-header
     dockerfilePath: ./gf-server-resources/Dockerfile
-    dockerContext: /gf-server-resources/
+    dockerContext: ./gf-server-resources/
   - type: web
     name: webapp
     env: docker
