@@ -2,6 +2,7 @@ services:
   - type: web
     name: sever-api
     env: docker
+    plan: free
     repo: https://github.com/SergioAJS/rss-golden-fleece.git
     region: frankfurt
     branch: responsive-header
