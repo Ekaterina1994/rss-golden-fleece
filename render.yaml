@@ -7,6 +7,7 @@ services:
     region: frankfurt
     branch: responsive-header
     dockerfilePath: ./gf-server-api/Dockerfile
+    dockerContext: ./gf-server-api/
   - type: web
     name: server-resources
     env: docker
@@ -15,6 +16,7 @@ services:
     region: frankfurt
     branch: responsive-header
     dockerfilePath: ./gf-server-resources/Dockerfile
+    dockerContext: /gf-server-resources/
   - type: web
     name: webapp
     env: docker
@@ -23,6 +25,7 @@ services:
     region: frankfurt
     branch: responsive-header
     dockerfilePath: ./gf-webapp/Dockerfile
+    dockerContext: ./gf-webapp/
   - type: web
     name: webapp-admin
     env: docker
@@ -31,3 +34,4 @@ services:
     region: frankfurt
     branch: responsive-header
     dockerfilePath: ./gf-webapp-admin/Dockerfile
+    dockerContext: ./gf-webapp-admin/
