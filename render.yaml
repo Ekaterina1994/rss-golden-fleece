@@ -7,3 +7,27 @@ services:
     region: frankfurt
     branch: responsive-header
     dockerfilePath: ./gf-server-api/Dockerfile
+  - type: web
+    name: server-resources
+    env: docker
+    plan: free
+    repo: https://github.com/SergioAJS/rss-golden-fleece.git
+    region: frankfurt
+    branch: responsive-header
+    dockerfilePath: ./gf-server-resources/Dockerfile
+  - type: web
+    name: webapp
+    env: docker
+    plan: free
+    repo: https://github.com/SergioAJS/rss-golden-fleece.git
+    region: frankfurt
+    branch: responsive-header
+    dockerfilePath: ./gf-webapp/Dockerfile
+  - type: web
+    name: webapp-admin
+    env: docker
+    plan: free
+    repo: https://github.com/SergioAJS/rss-golden-fleece.git
+    region: frankfurt
+    branch: responsive-header
+    dockerfilePath: ./gf-webapp-admin/Dockerfile
