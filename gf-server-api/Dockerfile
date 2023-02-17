@@ -4,6 +4,6 @@ COPY . .
 RUN npm i -g pnpm
 RUN pnpm i
 RUN pnpm run build
-CMD pnpm dlx serve ./build -p 3600 -s
+CMD node ./build/main.js
 EXPOSE 3600
 

@@ -1,6 +1,7 @@
 import React from "react";
 import {AboutUs} from "../aboutUs/AboutUs";
 import {Map} from "../map/Map";
+import {Rooms} from "../rooms/Rooms";
 // import {Rooms} from "../rooms/Rooms";
 import {Slider} from "../sliderImage/Slider";
 import {Button} from "./button/Button";
@@ -10,7 +11,7 @@ export function Main() {
   return (
     <>
       <Slider />
-      {/* <Rooms /> */}
+      <Rooms />
       <Button />
       <AboutUs />
       <Map />
