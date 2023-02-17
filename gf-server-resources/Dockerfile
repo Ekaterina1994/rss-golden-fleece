@@ -4,6 +4,6 @@ COPY . .
 RUN npm i -g pnpm
 RUN pnpm i
 RUN pnpm run build
-CMD pnpm dlx concurrently "node ./build/main.js" "pnpm dlx serve files -p 3501"
-EXPOSE 3500 3501
+CMD pnpm node ./build/main.js
+EXPOSE 3500
 
