@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: server-api
+    name: golden-fleece-server-api
     env: docker
     plan: free
     repo: https://github.com/Ekaterina1994/rss-golden-fleece.git
@@ -9,7 +9,7 @@ services:
     dockerfilePath: ./gf-server-api/Dockerfile
     dockerContext: ./gf-server-api/
   - type: web
-    name: server-resources
+    name: golden-fleece-server-resources
     env: docker
     plan: free
     repo: https://github.com/Ekaterina1994/rss-golden-fleece.git
@@ -18,7 +18,7 @@ services:
     dockerfilePath: ./gf-server-resources/Dockerfile
     dockerContext: ./gf-server-resources/
   - type: web
-    name: webapp
+    name: rss-golden-fleece
     env: docker
     plan: free
     repo: https://github.com/Ekaterina1994/rss-golden-fleece.git
@@ -27,7 +27,7 @@ services:
     dockerfilePath: ./gf-webapp/Dockerfile
     dockerContext: ./gf-webapp/
   - type: web
-    name: webapp-admin
+    name: golden-fleece-admin
     env: docker
     plan: free
     repo: https://github.com/Ekaterina1994/rss-golden-fleece.git
