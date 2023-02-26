@@ -55,32 +55,44 @@ export const HotelPlan = () => {
           <div id="1"
             className={`${styles.planRoom} ${styles.one}`}
           >
-            Single room №1
+            {t("singleRoom")}
+            {" "}
+            №1
           </div>
           <div id="2"
             className={`${styles.planRoom} ${styles.two}`}
           >
-            Single room №2
+            {t("singleRoom")}
+            {" "}
+            №2
           </div>
           <div id="3"
             className={`${styles.planRoom} ${styles.three}`}
           >
-            Double room №3
+            {t("doubleRoom")}
+            {" "}
+            №3
           </div>
           <div id="4"
             className={`${styles.planRoom} ${styles.four}`}
           >
-            Twin room №4
+            {t("twinRoom")}
+            {" "}
+            №4
           </div>
           <div id="5"
             className={`${styles.planRoom} ${styles.five} ${styles.disabled}`}
           >
-            Double room №5
+            {t("doubleRoom")}
+            {" "}
+            №5
           </div>
           <div id="6"
             className={`${styles.planRoom} ${styles.six}`}
           >
-            Double room №6
+            {t("doubleRoom")}
+            {" "}
+            №6
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import {useTranslation} from "react-i18next";
 import styles from "./roomPromo.module.scss";
 
 interface RoomPromo {
@@ -9,6 +10,7 @@ interface RoomPromo {
 }
 
 export const RoomPromo = (props: RoomPromo) => {
+  const {t} = useTranslation();
   return (
     <div>
       <div className={styles.wrapper}>
