@@ -26,7 +26,7 @@ export const RoomsPage = () => {
     rating: 8,
   });
 
-  const url = "https://golden-fleece-server-api/api/rooms";
+  const url = "https://golden-fleece-server-api.onrender.com/";
 
   const fetchData = async () => {
     const res = await fetch(url);
