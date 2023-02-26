@@ -8,11 +8,10 @@
   },
   "servers": [
     {
-      "url": "${GF_SERVER_API_HOST}:${GF_SERVER_API_PORT}",
+      "url": "${GF_SERVER_API_HOST}",
       "description": "gf-server-api"
     }
   ],
   "schemes":["http", "https"],
   "apis": ["./src/routes/*.ts"]
 }
-

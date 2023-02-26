@@ -13,7 +13,7 @@
  */
 
 
-export const BASE_PATH = "http://localhost:3600".replace(/\/+$/, "");
+export const BASE_PATH = "http://golden-fleece-server-api".replace(/\/+$/, "");
 
 export interface ConfigurationParameters {
     basePath?: string; // override base path
